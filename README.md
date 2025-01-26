@@ -1,4 +1,4 @@
-# Arbitraty base encoding
+# Arbitrary base encoding
 
 The initial idea for this project was to allow storing binary data to JSON as efficiently as possible. For example, common encodings like Base64 can be used for this but the data is expanded by 33.3%. By using the max number of available ASCII characters in a JSON string we can do better.
 
